@@ -1,0 +1,52 @@
+# Project Management API
+
+A simple RESTful API for managing projects and tasks.
+
+## Features
+
+- Create, read, update, and delete projects.
+- Create, read, update, and delete tasks.
+- Assign tasks to projects.
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/project-management-api.git
+   cd project-management-api
+
+
+2. Install the dependencies:
+    npm install 
+    
+3. Start MongoDB: Open a new terminal window and run:
+    mongod
+
+
+4. Start the Node.js server:
+    node src/app.js
+
+5. The API will be running on http://localhost:3000
+
+
+### API Endpoints
+You can use Postman to test the API endpoints.
+
+1. Projects
+    List Projects: GET /api/projects
+    Create Project: POST /api/projects
+    Update Project: PUT /api/projects/:id
+    Delete Project: DELETE /api/projects/:id#
+
+2. Tasks
+    List Tasks: GET /api/tasks
+    Create Task: POST /api/tasks
+    Update Task: PUT /api/tasks/:id
+    Delete Task: DELETE /api/tasks/:id
